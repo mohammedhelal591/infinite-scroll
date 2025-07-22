@@ -1,0 +1,12 @@
+<div class="posts">
+    @for(post of posts; track $index){
+    <app-post [post]="post" />
+    }
+
+    @if(errorMessage){
+    <div class="error">{{errorMessage}}</div>
+    }
+</div>
+@if(loading){
+<div class="loading">loading...</div>
+}

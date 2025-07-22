@@ -1,0 +1,26 @@
+.posts {
+  width: 50%;
+  margin: auto;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2em;
+
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  background-color: lightgray;
+  color: #ffffff;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #f8d7da;
+  border: 1px solid;
+  border-radius: 4px;
+}
